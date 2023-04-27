@@ -4,7 +4,7 @@ function set_price(item_id, products) {
             set_new_price(products[i].price);
         }
     } 
-    };
+};
 
 function set_new_price(products, dynamic) {
     if (dynamic = true )
